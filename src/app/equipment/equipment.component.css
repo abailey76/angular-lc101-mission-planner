@@ -1,6 +1,18 @@
-.displayBox {
+.displayBox01 {
     height: 275px;
     width: auto;
+}
+
+.displayBox02 {
+    height: 300px;
+    width: auto;
+    text-align: center;
+}
+
+.displayBox03 {
+    height: 275px;
+    width: auto;
+    text-align: center;
 }
 
 button {
@@ -14,8 +26,12 @@ h3 {
 }
 
 /* Add an 'active' class to style the background of the 'Add to Cargo Hold' buttons. */
-.active {
+.active01 {
     background-color: green;
+}
+
+.active02 {
+    background-color: yellow;
 }
 
 

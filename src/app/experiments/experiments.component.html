@@ -1,7 +1,24 @@
-<div class="displayBox">
+<div class="displayBox01">
     <h3>Possible Experiments</h3>
     <ul>
-      <li *ngFor="let experiment of experiments">{{experiment}}</li>
+      <li [class.selected]="onBoardExperiments.includes(experiment)" 
+      (click)="addExperimentOnBoard(experiment)" 
+      *ngFor="let experiment of experiments">{{experiment}}</li>
     </ul>
 </div>
 <hr>
+<div class="displayBox02">
+  <h3>On-Board Experiments</h3>
+  <ol>
+      <li *ngFor="let experiment of onBoardExperiments">{{experiment}}</li>
+  </ol>
+  <img *ngIf="selected" [src]="selected.photo"/>
+  <br>
+  <br>
+</div>
+<hr>
+<div class = "displayBox03">
+  <button (click)="onBoardExperiments = []"
+  [class.active02]= "onBoardExperiments.length > 0"
+  >Clear Experiments</button>
+</div>

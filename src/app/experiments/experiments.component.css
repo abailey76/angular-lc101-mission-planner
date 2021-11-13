@@ -1,8 +1,31 @@
-.displayBox {
+li:hover {
+    cursor: pointer;
+}
+
+.displayBox01 {
     height: 275px;
     width: auto;
 }
 
+.displayBox02 {
+    height: 300px;
+    width: auto;
+}
+
+.displayBox03 {
+    height: 275px;
+    width: auto;
+    text-align: center;
+}
+
 h3 {
     text-align: center;
+}
+
+.active02 {
+    background-color: yellow;
+}
+
+.selected {
+    color:lightseagreen;
 }

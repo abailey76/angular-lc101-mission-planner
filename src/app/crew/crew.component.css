@@ -2,9 +2,20 @@ li:hover {
     cursor: pointer;
 }
 
-.displayBox {
+.displayBox01 {
     height: 275px;
     width: auto;
+}
+
+.displayBox02 {
+    height: 300px;
+    width: auto;
+}
+
+.displayBox03 {
+    height: 275px;
+    width: auto;
+    text-align: center;
 }
 
 img {
@@ -19,4 +30,15 @@ h3 {
     text-align: center;
 }
 
-/* Add a 'selected' class here to style selected astronaut names a different color. */
+.selected {
+    color:lightseagreen;
+}
+
+.crewFull {
+    color: red;
+    font-weight: bolder;
+}
+
+.active02 {
+    background-color: yellow;
+}
